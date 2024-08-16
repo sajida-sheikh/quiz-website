@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+
+}
+/* ----------------------------Index Page----------------------------- */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(211, 225, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 50%;
+    height: 60vh;
+    background-color: white;
+    text-shadow: 9px 9px 9px rgb(44, 42, 42);
+    outline: 2px solid rgb(153, 153, 215) ;
+}
+/* ----------------------------Quiz Page----------------------------- */
+
+.container{
+    width: 50%;
+    border: 2px solid rgb(153, 153, 215) ;
+    border-radius: 10px;
+    padding: 30px;
+}
